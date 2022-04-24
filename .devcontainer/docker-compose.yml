@@ -1,0 +1,16 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - ../problems:/root/problems
+      - ../.vscode:/root/problems/.vscode
+    # 環境変数にC++のインクルードパスを渡す
+    # ~/.bashrcに記述しておく必要あり
+    environment:
+      - CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}
+
+    command: /bin/sh -c "while sleep 1000; do :; done"
