@@ -8,8 +8,8 @@ services:
     volumes:
       - ../problems:/root/problems
       - ../.vscode:/root/problems/.vscode
-    # 環境変数にC++のインクルードパスを渡す
-    # ~/.bashrcに記述しておく必要あり
+    # C++ include-path for ACL or Boost library
+    # Check ~/.bashrc or .bash_profile
     environment:
       - CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}
 
