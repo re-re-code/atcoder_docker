@@ -1,6 +1,6 @@
 # atcoder_docker
 ## WSL2+VSCode+Docker(C++,Python) Environment for AtCoder
-Use the following according to your personal preference
+Use the following according to your personal preference,
 1. `template.cpp` : C++ template file for the contest.
 
 2. `abcsetup.sh` : Create AtCoder Beginners Contest(ABC) directory, and source code based on the C++ template.  
