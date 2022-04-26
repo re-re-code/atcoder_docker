@@ -13,8 +13,6 @@
                 "-DONLINE_JUDGE",
                 "${file}",
                 "-o",
-                "${workspaceFolder}/solve.exe",
-                "&",
                 "${workspaceFolder}/solve.exe"
             ],
             "group": "build"
