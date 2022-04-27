@@ -6,7 +6,8 @@
         "bitset": "cpp",
         "vector": "cpp",
         "all": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "valarray": "cpp"
     },
     "[python]": {
         "editor.defaultFormatter": null,

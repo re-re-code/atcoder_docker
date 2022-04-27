@@ -12,5 +12,6 @@ RUN cd && git clone https://github.com/atcoder/ac-library.git /lib/ac-library
 
 RUN pip install numpy
 RUN pip install black
+RUN apt install vim
 
 WORKDIR /root/problems

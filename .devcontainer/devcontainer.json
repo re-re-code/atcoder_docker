@@ -10,7 +10,7 @@
 		"ms-python.vscode-pylance",
 		"ms-vscode.cpptools",
 		"austin.code-gnu-global",
-		"oderwat.indent-rainbow",
+		//"oderwat.indent-rainbow",
 		"lfurzewaddock.vscode-wsl-workspacefolder"
 	],
 }
