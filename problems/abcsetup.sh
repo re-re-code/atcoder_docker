@@ -11,11 +11,13 @@ if [ ! -e ABC ]; then
 fi
 
 mkdir -p ABC/$1
+
+len=`echo $2`
 for alpha in a b c d e f g h
 do
-  for i in 1 2 3 4 5 6 7 8
+  for i in `seq 1 ${#len}`
   do
-    cur=`echo $2 | cut -c $i`
+    cur=`echo $len | cut -c $i`
     if [ ${#cur} -ge 1 ]; then
       if [ $cur = $alpha ]; then
         cp -n template.cpp ABC/$1/$cur.cpp
