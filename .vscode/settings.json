@@ -7,7 +7,9 @@
         "vector": "cpp",
         "all": "cpp",
         "complex": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "deque": "cpp",
+        "string": "cpp"
     },
     "[python]": {
         "editor.defaultFormatter": null,
@@ -15,7 +17,7 @@
         "editor.quickSuggestions": true,
         "editor.snippetSuggestions": "top",
         "editor.detectIndentation": false,
-        "editor.tabSize": 4,
+        "editor.tabSize": 2,
         "editor.suggest.showClasses": false,
         "editor.suggest.showColors": false,
         "editor.suggest.showConstants": false,
@@ -47,5 +49,6 @@
         "editor.suggest.showVariables": false
     },
     "editor.formatOnSave": true,
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "editor.tabSize": 2
 }
