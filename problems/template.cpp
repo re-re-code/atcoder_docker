@@ -3,8 +3,8 @@
 //#pragma GCC optimize ("-O3")
 using namespace std;
 using ll = long long;
-const int INF = 1 << 29;//-536,870,912
-const long long LINF = 1LL << 60;//-1,152,921,504,606,846,976
+const int INF = 1 << 29; // -> 536,870,912
+const long long LINF = 1LL << 60; // -> 1,152,921,504,606,846,976
 struct init{init(){cin.tie(0);ios::sync_with_stdio(false);cout<<fixed<<setprecision(15);cerr<<fixed<<setprecision(15);}}init_;
 template<class T> inline bool chmin(T& a,T b){if(a>b)// ->
 {a=b;return true;}return false;}

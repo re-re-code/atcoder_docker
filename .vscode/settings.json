@@ -9,7 +9,8 @@
         "complex": "cpp",
         "valarray": "cpp",
         "deque": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "random": "cpp"
     },
     "[python]": {
         "editor.defaultFormatter": null,
